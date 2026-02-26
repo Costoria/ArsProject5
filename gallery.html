@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArsProject | Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>ArsProject</h1>
+    <nav>
+      <a href="index.html">About</a> |
+      <a href="gallery.html" aria-current="page">Gallery</a> |
+      <a href="facts.html">Facts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Accessible Interactive Photo Gallery</h2>
+
+      <!-- Большая зона предпросмотра -->
+      <div id="image" aria-live="polite">Hover over or focus on an image below to display here.</div>
+
+      <!-- Миниатюры -->
+      <div class="thumbs" aria-label="Photo thumbnails">
+        <figure class="thumb">
+          <img class="preview"
+               src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=900&q=60"
+               alt="A laptop on a desk with a clean workspace">
+          <figcaption>Laptop workspace</figcaption>
+        </figure>
+
+        <figure class="thumb">
+          <img class="preview"
+               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=60"
+               alt="Code displayed on a computer screen in a dark room">
+          <figcaption>Code on screen</figcaption>
+        </figure>
+
+        <figure class="thumb">
+          <img class="preview"
+               src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=60"
+               alt="Mountains reflected in a calm lake during golden hour">
+          <figcaption>Lake and mountains</figcaption>
+        </figure>
+
+        <figure class="thumb">
+          <img class="preview"
+               src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=60"
+               alt="A close-up photo of a circuit board with components">
+          <figcaption>Circuit board</figcaption>
+        </figure>
+
+        <figure class="thumb">
+          <img class="preview"
+               src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=60"
+               alt="People collaborating at a table with laptops and notes">
+          <figcaption>Team collaboration</figcaption>
+        </figure>
+
+        <figure class="thumb">
+          <img class="preview"
+               src="https://images.unsplash.com/photo-1520975682071-a35cd9a2a0a6?auto=format&fit=crop&w=900&q=60"
+               alt="A city street scene with lights at night">
+          <figcaption>City at night</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ArsProject</p>
+  </footer>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
